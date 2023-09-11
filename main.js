@@ -132,7 +132,12 @@ function animate() {
 	renderer.render( scene, camera );
     controls.update()
 
-    // arthurAvatar.rotation.y += 0.006
+    arthurAvatar.rotation.y += 0.006
+
+    burguer.rotation.y += 0.006
+    burguer.rotation.x -= 0.006
+    burguer.rotation.z -= 0.006
+ 
  
 }
 
